@@ -4,7 +4,7 @@
   Inicia um repósitorio git no código.
   
 - git add <nome do arquivo>
-  Adiciona um arquivo ao "stagged", que é uma sessão de preparação para um commit.
+  Adiciona um arquivo ao "staged", que é uma sessão de preparação para um commit.
 
 - git diff
   Compara diferenças do código atual para o código que está commitado.
