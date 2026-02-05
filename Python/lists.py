@@ -63,3 +63,12 @@ element = ["Valor", "Hello", "World!"]
 print("Valor" in element) #True
 print("Lioner" in element) #False
 print("World!" in element) #True
+
+## Juntando listas 
+
+jun = [1, 2, 3]
+to = [4, 5, 6]
+
+junto = to+jun #output : 4 5 6 1 2 3
+
+print(junto)
