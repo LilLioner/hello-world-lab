@@ -4,7 +4,7 @@ emptylst = list()
 emptylst2 = []
 
 lista_aninhada = [1, 2, 3, 4,["Hello", "World!"], 5, 6]
-
+print(lista_aninhada)
 ## lista por compreensão de lista
 
 numeros = [1, 2, 3, 4]
@@ -40,6 +40,7 @@ del addict[1] #o comando para deletar um valor é bem simples e autoexmplicativo
 print(addict)
 print(addict[1]) # A partir do momento que um valor é deletado, os numeros seguintes tem o numero de indice diminuido em 1
 
+## Também temos a função insert, que permite adicionar um valor a um numero de indice desejado.  Ex addict.insert(5, "Valor")
 ##Verificando se a lista está vazia
 
 vazia = []
@@ -69,6 +70,12 @@ print("World!" in element) #True
 jun = [1, 2, 3]
 to = [4, 5, 6]
 
-junto = to+jun #output : 4 5 6 1 2 3
+#junto = to+jun #output : 4 5 6 1 2 3
+jun.extend(to) #output : 1 2 3 4 5 6 
+print(jun)
 
-print(junto)
+#Também possuimos  a função "extend" com a mesma função
+#A diferença de usar o extend e criar uma nova variavel é justamente a criação de uma variavel nova, enquanto o extend apenas expande uma variavel já existente, somar listas cria uma variavel nova.
+
+###################################################################
+
