@@ -96,3 +96,19 @@ Imprima a tabuada do 1 ao 3, usando loops aninhados.'''
 for numero_mtp in range(1, 4):
   for multiplica in range (1, 4):
     print(numero_mtp, " x ", multiplica, "=" ,numero_mtp*multiplica)
+
+'''Dada a matriz:
+
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+
+Imprima todos os números, um por linha, usando loops aninhados.'''
+
+matriz = [
+    [1, 2, 3]
+    [4, 5, 6]
+]
+
