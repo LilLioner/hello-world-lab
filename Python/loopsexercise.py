@@ -108,7 +108,10 @@ matriz = [
 Imprima todos os números, um por linha, usando loops aninhados.'''
 
 matriz = [
-    [1, 2, 3]
+    [1, 2, 3],
     [4, 5, 6]
 ]
 
+for elemento in matriz:
+  for numero in elemento:
+    print(numero)
