@@ -22,7 +22,28 @@ def analisar_numeros(lista):
       pares.append(n)
     else:
       impares.append(n)
-  media = total / (len(lista))
-  return pares, impares, total, media
+  if lista == []:
+      media = 0
+  else:  
+      media = total / (len(lista))
+  final = {
+  "pares" : pares,
+  "impares" : impares,
+  "total" : total,
+  "media" : media
+  }
+  return final
 
-print(analisar_numeros([1,2,3,4]))
+print(analisar_numeros([]))
+
+
+
+def aoquadrado(lista):
+  return [n**2 for n in lista]
+
+
+lista = [2, 4]
+resultado = aoquadrado(lista)
+
+print(lista)
+print(resultado)
