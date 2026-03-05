@@ -47,3 +47,6 @@ resultado = aoquadrado(lista)
 
 print(lista)
 print(resultado)
+
+
+## FINALMENTE !!!!! AGORA VOU IR PRO NUMPY! ORGULHO!
