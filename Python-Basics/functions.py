@@ -50,3 +50,8 @@ print(resultado)
 
 
 ## FINALMENTE !!!!! AGORA VOU IR PRO NUMPY! ORGULHO!
+n = int(input())
+var = 0
+
+for i in range(1, n +1):
+    print(i, " ")

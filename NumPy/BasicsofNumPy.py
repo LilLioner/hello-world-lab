@@ -25,3 +25,9 @@ tridm = np.array([[["A", "B", "C"], ["D", "E", "F"], ["G", "H", "I"]], # 0
               #B     0    1    2      0    1    2      0    1    2
 print(tridm[1 , 0 , 1]) # Output = [K]
 # No caso da Tridimensional fica print(tridm[C,A,B])
+
+np.mean()   # média
+np.sum()    # soma
+np.max()    # máximo
+np.min()    # mínimo
+np.std()    # desvio padrão
