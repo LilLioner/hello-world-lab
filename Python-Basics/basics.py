@@ -1,10 +1,10 @@
-print("Hello World!")
+#print("Hello World!")
 
 a = 1 
 b = 2 
 c = a+b
-print(c)
-print(a+b)
+#print(c)
+#print(a+b)
 
 ###################################
 
@@ -20,6 +20,9 @@ w = float(input("Numero 2 ="))
 e = float(input("Numero 3 ="))
 r = float(input("Numero 4 ="))
 
-print("A média dos quatro numeros acima é : ", (q+w+e+r)/4)
+#print("A média dos quatro numeros acima é : ", (q+w+e+r)/4)
 
 ###################################
+
+n = int(input())
+arr = map(int, input().split())
